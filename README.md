@@ -5,6 +5,8 @@ This is the Objective-C version of PeriscommentView.
 
 Thanks for swift release [@yovalt](https://github.com/yoavlt/PeriscommentView) provided by this demo version is Objective-C, [you can click here to see swift release!](https://github.com/yoavlt/PeriscommentView)
 
+![screenshot](https://github.com/devtofu/PeriscommentView-OC/blob/master/screenshot/periscommentViewDemoLow.gif)
+
 ## Usage
 
 ##### Swift Usage
@@ -25,9 +27,9 @@ PeriscommentView.addCell(profileImage, name: name, comment: comment)
 ```objective-c
 TTPeriscommentView *periscommentView = [TTPeriscommentView new];
 UIImage *avatar = [UIImage imageNamed:@"twitterProfile.jpeg"];
-    NSString *name = @"@yoavlt";
+NSString *name = @"@yoavlt";
 NSString *comment = @"Awesome!";
-        [self.periscommentView addCellWithName:name comment:comment profileImage:avatar];
+[periscommentView addCellWithName:name comment:comment profileImage:avatar];
 ```
 
 ## License
