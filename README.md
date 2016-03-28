@@ -25,7 +25,7 @@ PeriscommentView.addCell(profileImage, name: name, comment: comment)
 ##### Objective-C Usage
 
 ```objective-c
-TTPeriscommentView *periscommentView = [TTPeriscommentView new];
+TTPeriscommentView *periscommentView = [TTPeriscommentView initWithFrame:...];
 UIImage *avatar = [UIImage imageNamed:@"twitterProfile.jpeg"];
 NSString *name = @"@yoavlt";
 NSString *comment = @"Awesome!";
