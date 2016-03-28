@@ -63,7 +63,7 @@
     
     // mark frame
     CGSize markSize = CGSizeMake(config.layout.markWidth, height);
-    CGRect markRect = CGRectMake(0, 0, markSize.width, markSize.height);
+    CGRect markRect = CGRectMake(self.frame.origin.x, self.frame.origin.y, markSize.width, markSize.height);
     self.mark = [[TTPeriscommentMark alloc] initWithFrame:markRect image:image];
     
     // comment frame
